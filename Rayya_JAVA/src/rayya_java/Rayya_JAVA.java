@@ -1,21 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package rayya_java;
 
-/**
- *
- * @author Rumah Laptop
- */
-public class Rayya_JAVA {
 
-    /**
-     * @param args the command line arguments
-     */
+public class Rayya_JAVA {
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("pallll");
+        String fName = "Lisa Palombo";
+        String IName = "123456789";
+        String stuStatus = "Active";
+        
+        System.out.println("Student Name: " + fName);
+        System.out.println("Student ID: " + IName);
+        System.out.println("Student Status: " + stuStatus);
     }
     
 }
