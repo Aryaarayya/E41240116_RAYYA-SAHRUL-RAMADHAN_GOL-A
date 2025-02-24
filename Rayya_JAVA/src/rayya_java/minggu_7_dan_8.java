@@ -4,6 +4,46 @@ import java.util.Scanner;
 public class minggu_7_dan_8 {
     
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("----------------------------------------");
+        System.out.println("   Kharisma Agung Plaza ( KAP )");
+        System.out.println("       Promo Belanja Berhadiah");
+        System.out.println("  Khusus Pembelian 5 Barang Pertama");
+        System.out.println("    Dengan harga minimum Rp 10000,00");
+        System.out.println("----------------------------------------");
+        
+        System.out.print("Masukkan nama pembeli : ");
+        String nama = scanner.nextLine();
+        
+        System.out.print("Masukkan Harga Barang ke-1 : ");
+        int harga1 = scanner.nextInt();
+        System.out.print("Masukkan Harga Barang ke-2 : ");
+        int harga2 = scanner.nextInt();
+        System.out.print("Masukkan Harga Barang ke-3 : ");
+        int harga3 = scanner.nextInt();
+        System.out.print("Masukkan Harga Barang ke-4 : ");
+        int harga4 = scanner.nextInt();
+        System.out.print("Masukkan Harga Barang ke-5 : ");
+        int harga5 = scanner.nextInt();
+        
+        int total;
+        total = harga1+harga2+harga3+harga4+harga5;
+        System.out.println("Total harga pembelian atas nama " + nama + " adalah Rp " + total);
+        
+        if (total >= 10000){
+            System.out.println("\nSelamat....");
+            System.out.println("Anda mendapat hadiah 1 buah mug cantik");
+        }
+        
+        System.out.println("----------------------------------------");
+        System.out.println("           Terima Kasih");
+        System.out.println(" Anda sudah belanja di Kharisma Agung Plaza");
+        System.out.println("----------------------------------------");
+
+    }
+}
+    /*public static void main(String[] args) {
        
     Scanner scanner = new Scanner(System.in);
         
@@ -51,49 +91,9 @@ public class minggu_7_dan_8 {
         System.out.println("Terima Kasih " + nama + " telah berkunjung di Cafe Ceria");
        
     }
-}
+}*/
     
 
    
-    /*public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("----------------------------------------");
-        System.out.println("   Kharisma Agung Plaza ( KAP )");
-        System.out.println("       Promo Belanja Berhadiah");
-        System.out.println("  Khusus Pembelian 5 Barang Pertama");
-        System.out.println("    Dengan harga minimum Rp 10000,00");
-        System.out.println("----------------------------------------");
-        
-        System.out.print("Masukkan nama pembeli : ");
-        String nama = scanner.nextLine();
-        
-        System.out.print("Masukkan Harga Barang ke-1 : ");
-        int harga1 = scanner.nextInt();
-        System.out.print("Masukkan Harga Barang ke-2 : ");
-        int harga2 = scanner.nextInt();
-        System.out.print("Masukkan Harga Barang ke-3 : ");
-        int harga3 = scanner.nextInt();
-        System.out.print("Masukkan Harga Barang ke-4 : ");
-        int harga4 = scanner.nextInt();
-        System.out.print("Masukkan Harga Barang ke-5 : ");
-        int harga5 = scanner.nextInt();
-        
-        int total;
-        total = harga1+harga2+harga3+harga4+harga5;
-        System.out.println("Total harga pembelian atas nama " + nama + " adalah Rp " + total);
-        
-        if (total >= 10000){
-            System.out.println("\nSelamat....");
-            System.out.println("Anda mendapat hadiah 1 buah mug cantik");
-        }
-        
-        System.out.println("----------------------------------------");
-        System.out.println("           Terima Kasih");
-        System.out.println(" Anda sudah belanja di Kharisma Agung Plaza");
-        System.out.println("----------------------------------------");
-
-    }
-}
-*/
+   
 
