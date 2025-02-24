@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package rayya_java;
 
-/**
- *
- * @author Rumah Laptop
- */
+package rayya_java;
 
 public class managingpeople {
     public static void main(String[] args) {
@@ -15,10 +7,10 @@ public class managingpeople {
         Person p2 = new Person("Joseph", 15);
         
         if(p1.getAge()==p2.getAge()){
-            System.out.println(p1.getName()+ "is the same age as" +p1.getAge());
+            System.out.println(p1.getName()+ " is the same age as " +p2.getName());
     }
     else {
-            System.out.println(p1.getName()+" is NOT the same age as "+p2.getAge());
+            System.out.println(p1.getName()+" is NOT the same age as "+p2.getName());
         }
     }
 }
