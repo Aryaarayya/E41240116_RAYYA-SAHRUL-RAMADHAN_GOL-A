@@ -5,7 +5,7 @@ public class Animal {
         System.out.println("talk");
     }
 }
-class Dog extends Animal {
+public class Dog extends Animal {
     public void makeNoise() {
         System.out.println("Bark");
     }
